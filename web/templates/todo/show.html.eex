@@ -1,0 +1,8 @@
+<h2>Show todo</h2>
+
+<ul>
+
+</ul>
+
+<%= link "Edit", to: todo_path(@conn, :edit, @todo) %>
+<%= link "Back", to: todo_path(@conn, :index) %>
